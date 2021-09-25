@@ -16,7 +16,7 @@ To help manage:
 
 ## SGBD
 
-- SQL Server (Tested with version 2019)
+- MySQL Server (Tested with version 8.x)
 
 ## To run
 

@@ -5,6 +5,7 @@
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <IsPackable>false</IsPackable>
+    <RootNamespace>ordermanger_dotnet</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

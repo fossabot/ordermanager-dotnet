@@ -1,4 +1,7 @@
 # Order Manager
+
+[![.NET](https://github.com/leandrocunha526/ordermanager-dotnet/actions/workflows/dotnet.yml/badge.svg)](https://github.com/leandrocunha526/ordermanager-dotnet/actions/workflows/dotnet.yml)
+
 ## API using Dotnet with JWT and IdentityModel
 
 # Description

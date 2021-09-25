@@ -1,9 +1,14 @@
-# Order Manager 
+# Order Manager
 ## API using Dotnet with JWT and IdentityModel
 
 # Description
 
-- To help manage warehouse, culminate business intelligence, statistics, data warehouse to assist in decision making within the company with agricultural inputs, suppliers, work orders with registration and scheduling, machines, brands and models.
+To help manage:
+
+- Warehouse,
+- Culminate business intelligence,
+- Statistics,
+- Data warehouse to assist in decision making within the company with agricultural inputs, suppliers, work orders with registration and scheduling, machines, brands and models.
 
 ## Version
 

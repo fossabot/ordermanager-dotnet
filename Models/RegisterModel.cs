@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace ordermanger_dotnet.Models
+namespace ordermanager_dotnet.Models
 {
     public class RegisterModel
     {

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ordermanger_dotnet.Entities;
+using ordermanager_dotnet.Entities;
 
-namespace ordermanger_dotnet.Services
+namespace ordermanager_dotnet.Services
 {
 	public interface IUserService
 	{

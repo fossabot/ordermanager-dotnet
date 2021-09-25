@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ordermanger_dotnet.Entities;
-using ordermanger_dotnet.Helpers;
-using ordermanger_dotnet.Data;
+using ordermanager_dotnet.Entities;
+using ordermanager_dotnet.Helpers;
+using ordermanager_dotnet.Data;
 
-namespace ordermanger_dotnet.Services
+namespace ordermanager_dotnet.Services
 {
 	public class UserService : IUserService
 	{

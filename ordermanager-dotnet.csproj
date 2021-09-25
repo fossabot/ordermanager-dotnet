@@ -3,7 +3,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <RootNamespace>ordermanger_dotnet</RootNamespace>
+    <RootNamespace>ordermanager_dotnet</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />

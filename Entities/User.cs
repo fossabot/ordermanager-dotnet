@@ -1,4 +1,4 @@
-namespace ordermanger_dotnet.Entities
+namespace ordermanager_dotnet.Entities
 {
     public class User
     {

@@ -1,4 +1,4 @@
-namespace ordermanger_dotnet.Helpers
+namespace ordermanager_dotnet.Helpers
 {
 	public class AppSettings
 	{

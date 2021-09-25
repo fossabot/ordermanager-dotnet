@@ -1,6 +1,6 @@
 using AutoMapper;
-using ordermanger_dotnet.Entities;
-using ordermanger_dotnet.Models;
+using ordermanager_dotnet.Entities;
+using ordermanager_dotnet.Models;
 
 namespace ordermanger_dotnet.Helpers
 {

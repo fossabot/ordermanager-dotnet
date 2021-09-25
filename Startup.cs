@@ -14,14 +14,14 @@ using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using ordermanger_dotnet.Data;
-using ordermanger_dotnet.Helpers;
-using ordermanger_dotnet.Services;
+using ordermanager_dotnet.Data;
+using ordermanager_dotnet.Helpers;
+using ordermanager_dotnet.Services;
 using Pomelo.EntityFrameworkCore.MySql;
 using AutoMapper;
 using System.Text;
 
-namespace ordermanger_dotnet
+namespace ordermanager_dotnet
 {
 	public class Startup
 	{

@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
 using System.IdentityModel.Tokens.Jwt;
-using ordermanger_dotnet.Helpers;
+using ordermanager_dotnet.Helpers;
 using Microsoft.Extensions.Options;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using ordermanger_dotnet.Services;
-using ordermanger_dotnet.Entities;
-using ordermanger_dotnet.Models;
+using ordermanager_dotnet.Services;
+using ordermanager_dotnet.Entities;
+using ordermanager_dotnet.Models;
 
-namespace backend.Controllers
+namespace ordermanager_dotnet.Controllers
 {
 	[Authorize]
 	[ApiController]

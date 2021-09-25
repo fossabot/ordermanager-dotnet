@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace ordermanger_dotnet.Helpers
+namespace ordermanager_dotnet.Helpers
 {
 	public class AppException : Exception
 	{

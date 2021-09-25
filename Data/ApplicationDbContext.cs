@@ -1,12 +1,18 @@
 using Microsoft.EntityFrameworkCore;
-using ordermanger_dotnet.Entities;
-using ordermanger_dotnet.Models;
+using ordermanager_dotnet.Entities;
+using ordermanager_dotnet.Models;
 
-namespace ordermanger_dotnet.Data
+namespace ordermanager_dotnet.Data
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
         public DbSet<User> Users {get;set;}
+
+        public DbSet<Manafacturer> Manufacturers {get;set;}
+
+        public DbSet<Model> Models {get;set;}
+
+        public DbSet<Machine> Machines {get;set;}
     }
 }

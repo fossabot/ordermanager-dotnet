@@ -50,7 +50,7 @@ namespace ordermanager_dotnet.Data
             return await query.FirstOrDefaultAsync();
         }
 
-        public async Task<Model[]> GetAllModelAsync(bool includeManufacturer = false, bool includeMachine = false)
+        public async Task<Model[]> GetAllModelAsync(bool includeManufacturer = false)
         {
             IQueryable<Model> query = _context.Models;
             if(includeManufacturer){
@@ -61,12 +61,11 @@ namespace ordermanager_dotnet.Data
             return await query.ToArrayAsync();
         }
 
-        public async Task<Model> GetModelAsyncById(int ModelId, bool includeManufacturer, bool includeMachine)
+        public async Task<Model> GetModelAsyncById(int ModelId, bool includeManufacturer)
         {
             IQueryable<Model> query = _context.Models;
-            if(includeManufacturer && includeMachine){
+            if(includeManufacturer){
                 query = query.Include(ma => ma.Manufacturers);
-                query = query.Include(mac => mac.Machines);
             }
             query = query.AsNoTracking().OrderBy(model => model.Id).Where(model => model.Id == ModelId);
             return await query.FirstOrDefaultAsync();

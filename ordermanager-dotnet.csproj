@@ -15,7 +15,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="./Test/Test.csproj" />
-  </ItemGroup>
 </Project>

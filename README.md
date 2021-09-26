@@ -2,6 +2,8 @@
 
 [![.NET](https://github.com/leandrocunha526/ordermanager-dotnet/actions/workflows/dotnet.yml/badge.svg)](https://github.com/leandrocunha526/ordermanager-dotnet/actions/workflows/dotnet.yml)
 
+[![Build Status](https://dev.azure.com/leandrocunha520/ordermanager-dotnet/_apis/build/status/leandrocunha526.ordermanager-dotnet?branchName=main)](https://dev.azure.com/leandrocunha520/ordermanager-dotnet/_build/latest?definitionId=10&branchName=main)
+
 ## API using Dotnet with JWT and IdentityModel
 
 # Description

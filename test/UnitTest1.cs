@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace ordermanager_dotnet.test
+namespace ordermanager_dotnet.Test
 {
     public class UnitTest1
     {

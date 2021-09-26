@@ -16,6 +16,6 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="./test/test.csproj" />
+    <ProjectReference Include="./Test/Test.csproj" />
   </ItemGroup>
 </Project>

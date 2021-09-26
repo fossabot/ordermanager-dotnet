@@ -11,8 +11,8 @@ namespace ordermanager_dotnet.Data
         Task<bool> SaveChangesAsync();
 
         //Manufacturer
-        Task<Manafacturer[]> GetAllManufacturersAsync(bool includeModel);
-        Task<Manafacturer> GetManufacturerAsyncById(int ManufacturerId, bool includeModel);
+        Task<Manufacturer[]> GetAllManufacturersAsync(bool includeModel);
+        Task<Manufacturer> GetManufacturerAsyncById(int ManufacturerId, bool includeModel);
 
         //Model
         Task<Model[]> GetAllModelAsync(bool includeManufacturer, bool includeMachine);

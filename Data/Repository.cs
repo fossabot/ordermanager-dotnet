@@ -29,19 +29,19 @@ namespace ordermanager_dotnet.Data
            _context.Update(entity);
         }
 
-        public async Task<Manafacturer[]> GetAllManufacturersAsync(bool includeModel = false)
+        public async Task<Manufacturer[]> GetAllManufacturersAsync(bool includeModel = false)
         {
-            IQueryable<Manafacturer> query = _context.Manufacturers;
+            IQueryable<Manufacturer> query = _context.Manufacturers;
             if(includeModel){
                 query = query.Include(mo => mo.Models);
             }
-            query = query.AsNoTracking().OrderBy(manafacturer => manafacturer.Id);
+            query = query.AsNoTracking().OrderBy(manufacturer => manufacturer.Id);
             return await query.ToArrayAsync();
         }
 
-        public async Task<Manafacturer> GetManufacturerAsyncById(int ManufacturerId, bool includeModel)
+        public async Task<Manufacturer> GetManufacturerAsyncById(int ManufacturerId, bool includeModel)
         {
-            IQueryable<Manafacturer> query = _context.Manufacturers;
+            IQueryable<Manufacturer> query = _context.Manufacturers;
             if(includeModel)
             {
                 query = query.Include(mo => _context.Models);

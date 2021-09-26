@@ -14,7 +14,7 @@ namespace ordermanager_dotnet.Models
 
         [Required]
         public int ManufacturerId {get;set;}
-        public Manafacturer Manufacturers {get;set;}
+        public Manufacturer Manufacturers {get;set;}
         public List<Machine> Machines {get;set;}
     }
 }

@@ -9,7 +9,7 @@ namespace ordermanager_dotnet.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
         public DbSet<User> Users {get;set;}
 
-        public DbSet<Manafacturer> Manufacturers {get;set;}
+        public DbSet<Manufacturer> Manufacturers {get;set;}
 
         public DbSet<Model> Models {get;set;}
 

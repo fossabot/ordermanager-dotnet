@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ordermanager_dotnet.Models
 {
-    public class Manafacturer
+    public class Manufacturer
     {
         [Required]
         public int Id {get;set;}
